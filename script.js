@@ -3,7 +3,6 @@ let password;
 
 document.getElementById("mySubmit").onclick = function() {
   username = document.getElementById("username_input").value;
-  username = username.toLowerCase();
 
   password = document.getElementById("password_input").value;
   
