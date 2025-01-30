@@ -3,12 +3,11 @@ let password;
 
 document.getElementById("mySubmit").onclick = function() {
   username = document.getElementById("username_input").value;
+  
 
   password = document.getElementById("password_input").value;
   
   if (username == "GlitchMeister B-45" && password == "YourMom69"){
-    
-
     document.getElementById("myh1").style.color = "red";
     document.getElementById("myh1").textContent = "Y29tbWFuZC5wcm9tdC9yZXNldA==";
   } else if (username == "" && password == ""){
